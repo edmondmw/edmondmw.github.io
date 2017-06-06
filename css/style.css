@@ -4,6 +4,14 @@ body {
     font-family:;
 }
 
+h2 {
+    padding-bottom: 20px;
+}
+
+.row{
+    padding-bottom: 20px;
+}
+
 .jumbotron {
     background-image: url(../img/header.jpg);
     background-size: cover;
@@ -15,12 +23,14 @@ body {
 }
 
 /*About*/
-.about .container {
-   text-align: center;
+.about {
+    text-align: center;
 }
 
 .about img {
     margin-top: -20px;
+    height: auto;
+    width: auto;
 }
 
 #about_info  p{
@@ -29,12 +39,33 @@ body {
     text-align: justify;
 }
 
-
-/*Skills*/
-.skills h2 {
-    padding-bottom: 20px;
+/*Interests*/
+.interests{
+    background-color: #f4f4f4;
+    margin-top: -20px;
+    padding-top: 20px;
 }
 
+.interests .container{
+    text-align: center;
+}
+.thumbnail {
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    max-width: 350px;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+
+.interests img{
+    size:cover;
+    height:auto;
+    width: auto;
+}
+
+/*Skills*/
 .skills .container .row {
     padding-bottom: 20px;
 }
