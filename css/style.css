@@ -13,18 +13,30 @@ body {
     text-align: center;
     padding-top:150px;
 }
-.about img {
-    margin-top: -20px;
-}
 
+/*About*/
 .about .container {
    text-align: center;
+}
+
+.about img {
+    margin-top: -20px;
 }
 
 #about_info  p{
     padding-left: 100px;
     padding-right:100px;
     text-align: justify;
+}
+
+
+/*Skills*/
+.skills h2 {
+    padding-bottom: 20px;
+}
+
+.skills .container .row {
+    padding-bottom: 20px;
 }
 
 .icon {
