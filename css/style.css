@@ -4,8 +4,21 @@ body {
     font-family:;
 }
 
-h2 {
+section {
+    padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: auto;
+    size: cover;
+}
+
+hr{
+    border-top: 2px solid;
+    border-color: #a753ff;
 }
 
 .row{
@@ -37,18 +50,23 @@ h2 {
     transform: translate(-50%, -50%) 
 }
 
-/*About*/
+/***************************** About ***************************/
 .about {
-    text-align: center;
     background-color: #333;
     color: white;
     padding-bottom: 50px;
 }
 
+.about hr {
+    border-color: white;
+}
+
 .about img {
     padding-top: 20px;
-    height: auto;
-    width: auto;
+}
+
+#about_info h2 {
+    padding-bottom: 20px;
 }
 
 #about_info  p{
@@ -58,40 +76,24 @@ h2 {
     text-align: justify;
 }
 
-/*Interests*/
+/***************************** Interests ***************************/
 .interests{
-    padding-top: 20px;
     color: #000;
     background-color: #f4f4f4;
 }
 
-.interests .container{
-    text-align: center;
+.interests .container-outer{
     font-size: 20px;
     margin: 0 auto;
     width: 100%;
 }
 
-.interests hr{
-    width:75%;
-    border-top: 2px solid;
-    border-color: #a753ff;
-}
-
-.interests img{
-    size:cover;
-    height:auto;
-    width: auto;
-}
 
 .interests .col-md-3 {
     padding-left: 0;
     padding-right: 0;
 }
 
-.interests .row {
-    padding-bottom:0px;
-}
 
 .picture-container {
     width: auto;
@@ -128,28 +130,22 @@ h2 {
 
 .picture-container h2 span { 
     color: white; 
-    font: bold 24px/45px Helvetica, Sans-Serif; 
-    letter-spacing: -1px;  
-    /*background: rgb(0, 0, 0); /* fallback color */
-    /*background: rgba(0, 0, 0, 0.3);*/
-    /*padding: 10px; */
+    letter-spacing: -1px;    
 }
 
 
-/*Skills*/
+/***************************** Skills ***************************/
 .skills{
+    padding-top: 20px;
     background-color: #333;
     /*color: #25004c;*/
-    color: #a753ff;
+    color: white;
 }
 
-.skills h2 {
-    text-align: center;
-}
-.skills .container .row {
-    padding-bottom: 20px;
-    color: white;
-    
+.skills p {
+    line-height: 170%;
+    text-align: left;
+
 }
 
 .icon {
@@ -157,4 +153,9 @@ h2 {
     color:#a753ff;
     border-radius: 50%;
     padding: 10px;
+}
+
+/***************************** Footer ***************************/
+footer {
+    text-align: center;
 }
