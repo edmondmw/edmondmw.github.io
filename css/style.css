@@ -80,7 +80,7 @@ hr{
 .interests{
     color: #000;
     background-color: #f4f4f4;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .interests .container-outer{
@@ -154,6 +154,23 @@ hr{
     color:#a753ff;
     border-radius: 50%;
     padding: 10px;
+}
+
+/***************************** Experience ***************************/
+.experience {
+    background-color: #f4f4f4;
+}
+
+.experience p{
+    text-align: left;
+}
+.experience-img {
+    text-align: center;
+}
+
+.experience-hr{
+    border-top: 2px solid;
+    border-color: #d3d3d3;
 }
 
 /***************************** Contact ***************************/
