@@ -151,7 +151,9 @@ header hr {
     -o-transition: background .3s linear;
     transition: background .3s linear;
 }
-
+.picture-container img {
+    width: 100%;
+}
 
 .picture-container h2 { 
    position: absolute; 
