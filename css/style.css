@@ -72,7 +72,8 @@ header hr {
 }
 
 .btn-outline {
-    background: none;
+    border-radius:0%;
+    background:none;
     padding: 12px 22px;
     border: 2px solid #fff;
     color: #fff;
@@ -80,6 +81,7 @@ header hr {
 
 .btn-outline a {
     color:#fff;
+    display: inline-block;
 }
 /***************************** About ***************************/
 .about {
